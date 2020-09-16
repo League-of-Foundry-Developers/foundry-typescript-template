@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ES6",
+    "lib": ["DOM", "ES6", "ES2017", "ES2018"],
+    "types": ["foundry-pc-types", "node"],
+    "allowUmdGlobalAccess": true
+  },
+  "files": ["./gulpfile.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}

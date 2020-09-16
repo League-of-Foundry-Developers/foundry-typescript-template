@@ -1,0 +1,20 @@
+{
+  "name": "foundry-typescript-template",
+  "version": "1.0.0",
+  "description": "Foundry VTT Typescript Template",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  },
+  "dependencies": {
+    "@types/node": "^14.10.1",
+    "foundry-pc-types": "gitlab:foundry-projects/foundry-pc/foundry-pc-types",
+    "typescript": "^4.0.2"
+  }
+}
