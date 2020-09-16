@@ -16,7 +16,7 @@
   "download": "",
   "type": "module",
   "includes": [
-    "dist/"
+    "dist/*"
   ],
   "media": [
     {
