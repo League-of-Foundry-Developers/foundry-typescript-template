@@ -16,7 +16,13 @@
   "download": "",
   "type": "module",
   "includes": [
-    "dist/{*,.[!.]*}"
+    "./assets/**",
+    "./lang/**",
+    "./scripts/**",
+    "./styles/**",
+    "./templates/**",
+    "./module.json",
+    "./README.md"
   ],
   "media": [
     {
