@@ -25,7 +25,7 @@ jobs:
 
     # create a zip file with all files required by the module to add to the release
     - name: Zip Files
-      run: zip -r -j ./module.zip ${{steps.get-includes.outputs.files}}
+      run: zip -r ./module.zip ${{steps.get-includes.outputs.files}}
 
     #Useful only for the template so we can leave the manifest and download urls empty
     - name: Substitute Manifest and Download Links For Versioned Ones
