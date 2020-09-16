@@ -49,7 +49,7 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './module.json, ./module.zip'
+        artifacts: './dist/module.json, ./module.zip'
         tag: latest
 
     #Substitute the Manifest and Download URLs in the module.json
@@ -73,5 +73,5 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './module.json,./module.zip'
+        artifacts: './dist/module.json,./module.zip'
         tag: ${{ steps.get-version.outputs.version }}
